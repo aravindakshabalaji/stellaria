@@ -59,7 +59,7 @@ mod tests {
         let today = chrono::Utc::now().date_naive();
         assert_eq!(params.date, Some(today));
         assert_eq!(params.count, None);
-        assert!(params.thumbs);
+        assert!(!params.thumbs);
     }
 
     #[test]
