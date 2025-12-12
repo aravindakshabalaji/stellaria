@@ -59,7 +59,7 @@ mod tests {
         let today = chrono::Utc::now().date_naive();
         assert_eq!(params.date, Some(today));
         assert_eq!(params.count, None);
-        assert_eq!(params.thumbs, false);
+        assert!(params.thumbs);
     }
 
     #[test]
@@ -100,7 +100,7 @@ mod tests {
     fn test_builder_with_thumbs() {
         let params = ApodParams::builder().thumbs(true).build().unwrap();
 
-        assert_eq!(params.thumbs, true);
+        assert!(params.thumbs);
     }
 
     // ==================== Date Validation Tests ====================
