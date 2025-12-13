@@ -3,7 +3,7 @@
 Stellaria is an ergonomic Rust client library for NASA's Web APIs. It provides a convenient, type-safe way to concurrently call the endpoints, build state-guaranteed request parameters, and handle the REST API gracefully.
 
 [![Latest Version](https://img.shields.io/crates/v/stellaria.svg)](https://crates.io/crates/stellaria)
-[![Build](https://github.com/aravindakshabalaji/stellaria/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/aravindakshabalaji/stellaria/actions/workflows/publish.yml)
+[![Build](https://github.com/aravindakshabalaji/stellaria/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/aravindakshabalaji/stellaria/actions/workflows/test.yml)
 [![Documentation](https://docs.rs/stellaria/badge.svg)](https://docs.rs/stellaria)
 [![License](https://img.shields.io/github/license/aravindakshabalaji/stellaria.svg)](LICENSE)
 
@@ -101,4 +101,7 @@ Please run `cargo fmt` and `cargo clippy` before opening PRs.
 
 ## License
 
-Dual licensed under **MIT OR Apache-2.0**. See the `LICENSE` file for details.
+Licensed under either of
+
+- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or http://apache.org/licenses/LICENSE-2.0)
+- MIT license ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
